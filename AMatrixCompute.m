@@ -6,7 +6,7 @@ function [Axpos,Axneg] = AMatrixCompute(u,v,x_int,xn,A_pos,A_neg)
     
     
     ve_int = v(x_int+1);
-    vw_int = v(x_int-1);
+    vw_int = v(x_int);
     
 
     %estimate positive, negative velocity locations
